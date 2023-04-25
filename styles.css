@@ -1,0 +1,69 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'andika',sans-serif;
+    
+}
+
+.hero{
+    height: 100vh;
+    width:100vw;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('\gym-img 3.jpg');
+    background-size:cover;
+    
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items:center;
+    padding-top:2.5%;
+    padding-left:10%;
+    padding-right:10%;
+}
+span{
+    color:#ff0000;
+}
+ul{
+    border:0;
+    margin:0;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    font-weight: bolder;
+    display: inline-block;
+    transition-property:color,transform;
+    transition-duration:200ms;
+    transition-timing-function: cubic-bezier(0.66, -0.33, 1, 0.43);
+}
+nav ul li  :hover{
+    color: #ff0000;
+    transform:scale(1.1);
+    
+}
+button{
+    background-color:#ff0000;
+    border-radius: 20px;
+    padding:9px 40px;
+    color:white;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+    transition-duration: 200ms;
+    transition-property: transform,background-color;
+
+
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: rgb(232, 33, 7);
+    cursor: pointer;
+}
